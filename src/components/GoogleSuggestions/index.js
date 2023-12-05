@@ -53,7 +53,7 @@ class GoogleSuggestions extends Component {
               {searchResults.map(each => (
                 <suggestionItem
                   key={each.id}
-                  suggestionDetails={each}
+                  suggestionD={each}
                   updateSearchInput={this.updateSearchInput}
                 />
               ))}
